@@ -1,0 +1,40 @@
+.containerWeek {
+
+	width: 100%;
+	display: flex;
+
+}
+
+.containerDay {
+
+	width: calc((100vw - 210px)/6);
+	flex: 1;
+	
+	margin: 0px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	background-color: white;
+	
+}
+
+
+.containerReadingList {
+
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.containerReading {
+
+	width: calc((100vw - 180px)/5);
+	display: table-row;
+	
+	margin: 0px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	background-color: white;
+		
+}

@@ -1,0 +1,493 @@
+@font-face {
+	font-family: "Univers W01";
+	src: url("091fe5d9-1aaa-4f3c-9b94-c83bb7c362ab.woff2") format("woff2"),
+	     url("7b95cb9a-a288-4405-97a0-13095f56a903.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+[onClick] {
+    cursor:pointer;
+}
+
+body {
+	margin: 15px;
+	background: white;
+}
+
+.title {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 0px;
+	border-style: none;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+
+	margin: 30 15 60 15px;
+}
+
+.titleLectures {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: blue;
+
+	padding: 0px;
+	border-style: none;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+
+	margin: 30 15 60 15px;
+}
+
+.impactShadow {
+	font-family: Impact, "Arial Black", sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	color: white;
+	-webkit-text-stroke: 1px blue;
+	text-shadow: 0px 0px 4px blue;
+}
+
+.impact {
+	font-family: Impact, "Arial Black", sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.title a:link {color: blue; text-decoration:underline;}
+.title a:visited {color: blue; text-decoration:underline;}
+.title a:hover {color: red; text-decoration:underline;}
+.title a:active {color: red; text-decoration:underline;}
+
+.lineDate {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5 0 5 0px;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.lineDateLectures {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: blue;
+
+	padding: 5 0 5 0px;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: blue;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.lineDeadline {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: red;
+
+	padding: 5 0 5 0px;
+	border-style: solid none none none;
+	border-width: 2px;
+	border-color: red;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.lineDeadline a:link {color: red; text-decoration:underline;}
+.lineDeadline a:visited {color: red; text-decoration:underline;}
+.lineDeadline a:hover {color: blue; text-decoration:underline;}
+.lineDeadline a:active {color: blue; text-decoration:underline;}
+
+
+hr.white {
+	border-top: 2px dashed white;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+hr.black {
+	border-top: 2px dashed black;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+hr.blue {
+	border-top: 2px dashed blue;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.boxWhite {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.boxWhite a:link {color: blue; text-decoration:underline;}
+.boxWhite a:visited {color: blue; text-decoration:underline;}
+.boxWhite a:hover {color: red; text-decoration:underline;}
+.boxWhite a:active {color: red; text-decoration:underline;}
+
+.boxRed {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: red;
+
+	margin-bottom: 10px;
+}
+
+.boxRed a:link {color: white; text-decoration:underline;}
+.boxRed a:visited {color: white; text-decoration:underline;}
+.boxRed a:hover {color: yellow; text-decoration:underline;}
+.boxRed a:active {color: yellow; text-decoration:underline;}
+
+.boxYellow {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: yellow;
+
+	margin-bottom: 10px;
+}
+
+.boxYellow a:link {color: blue; text-decoration:underline;}
+.boxYellow a:visited {color: blue; text-decoration:underline;}
+.boxYellow a:hover {color: red; text-decoration:underline;}
+.boxYellow a:active {color: red; text-decoration:underline;}
+
+.boxGrey {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: #dddddd;
+
+	margin-bottom: 10px;
+}
+
+.boxGrey a:link {color: blue; text-decoration:underline;}
+.boxGrey a:visited {color: blue; text-decoration:underline;}
+.boxGrey a:hover {color: red; text-decoration:underline;}
+.boxGrey a:active {color: red; text-decoration:underline;}
+
+.boxBlue {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: blue;
+
+	margin-bottom: 10px;
+}
+
+.boxBlue a:link {color: white; text-decoration:underline;}
+.boxBlue a:visited {color: white; text-decoration:underline;}
+.boxBlue a:hover {color: yellow; text-decoration:underline;}
+.boxBlue a:active {color: yellow; text-decoration:underline;}
+
+.boxDashed {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: dashed;
+	border-width: 2px;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.boxDashed a:link {color: blue; text-decoration:underline;}
+.boxDashed a:visited {color: blue; text-decoration:underline;}
+.boxDashed a:hover {color: red; text-decoration:underline;}
+.boxDashed a:active {color: red; text-decoration:underline;}
+
+.boxBlueOutline {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: blue;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.boxBlueOutline a:link {color: blue; text-decoration:underline;}
+.boxBlueOutline a:visited {color: blue; text-decoration:underline;}
+.boxBlueOutline a:hover {color: red; text-decoration:underline;}
+.boxBlueOutline a:active {color: red; text-decoration:underline;}
+
+.boxRedOutline {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: red;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	background-color: none;
+
+	margin-bottom: 10px;
+}
+
+.boxRedOutline a:link {color: red; text-decoration:underline;}
+.boxRedOutline a:visited {color: red; text-decoration:underline;}
+.boxRedOutline a:hover {color: blue; text-decoration:underline;}
+.boxRedOutline a:active {color: blue; text-decoration:underline;}
+
+.dayPast {
+	background-color: #eeeeee;
+}
+
+.studioAccess {
+
+	font-size: 10px;
+	color: black;
+
+}
+
+/* READING LIST STYLES */
+
+.boxReading {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+	
+	flex: 1;
+	
+}
+
+.boxReading a:link {color: blue; text-decoration:underline;}
+.boxReading a:visited {color: blue; text-decoration:underline;}
+.boxReading a:hover {color: red; text-decoration:underline;}
+.boxReading a:active {color: red; text-decoration:underline;}
+
+.boxReadingKey {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: yellow;
+	
+	flex: 1;
+	
+}
+
+.boxReadingKey a:link {color: blue; text-decoration:underline;}
+.boxReadingKey a:visited {color: blue; text-decoration:underline;}
+.boxReadingKey a:hover {color: red; text-decoration:underline;}
+.boxReadingKey a:active {color: red; text-decoration:underline;}
+
+.boxReadingProvisional {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+
+	padding: 5px;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: black;
+	background-color: none;
+	
+	flex: 1;
+	
+}
+
+.boxReadingProvisional a:link {color: blue; text-decoration:underline;}
+.boxReadingProvisional a:visited {color: blue; text-decoration:underline;}
+.boxReadingProvisional a:hover {color: red; text-decoration:underline;}
+.boxReadingProvisional a:active {color: red; text-decoration:underline;}
+
+.boxVideo {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: blue;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	background-color: none;
+	
+	flex: 1;
+	
+}
+
+.boxVideo a:link {color: blue; text-decoration:underline;}
+.boxVideo a:visited {color: blue; text-decoration:underline;}
+.boxVideo a:hover {color: red; text-decoration:underline;}
+.boxVideo a:active {color: red; text-decoration:underline;}
+
+.boxVideoKey {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: blue;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	background-color: yellow;
+	
+	flex: 1;
+	
+}
+
+.boxVideoKey a:link {color: blue; text-decoration:underline;}
+.boxVideoKey a:visited {color: blue; text-decoration:underline;}
+.boxVideoKey a:hover {color: red; text-decoration:underline;}
+.boxVideoKey a:active {color: red; text-decoration:underline;}
+
+.boxReview {
+
+	font-family: Univers W01;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: silver;
+
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: silver;
+	background-color: none;
+	
+	flex: 1;
+	
+}
+
+.boxReview a:link {color: silver; text-decoration:underline;}
+.boxReview a:visited {color: silver; text-decoration:underline;}
+.boxReview a:hover {color: silver; text-decoration:underline;}
+.boxReview a:active {color: silver; text-decoration:underline;}

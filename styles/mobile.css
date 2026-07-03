@@ -1,0 +1,33 @@
+.containerWeek {
+
+	width: 100%;
+	display: initial;
+
+}
+
+.containerDay {
+
+	width: calc(100vw - 60px);
+	height: auto;
+	display: initial;
+	
+	margin: 0px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	background-color: white;
+	
+}
+
+.containerReading {
+
+	width: calc((100vw - 60px));
+	height: auto;
+	
+	margin: 0px;
+	padding: 15px;
+	text-align: left;
+	float: left;
+	background-color: white;
+	
+}
